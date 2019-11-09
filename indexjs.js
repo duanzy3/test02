@@ -1,23 +1,16 @@
-// 斐波拉契数列
-
-function getRabbitNum(num) {
-	var result = []
-	function fn (n){
-		if (n <= 2){
-			return 1
-		}
-		else {
-			if(result[n]){
-				return result[n];
-			}
-			else {
-				result[n] = arguments.callee(n - 1) + arguments.callee(n -2)
-				return result[n];
-			}
-		}
+function noreat(arr){
+	var i = 0
+	len = arr.length
+	obj = {}
+	result = []
+	while(i++<len)
+	{
+		obj[arr[i]] || result.push(arr[i])
+		console.log(obj[arr[i]])
+		obj[arr[i]] = true
 	}
-	fn(num)
-	return result;
+	return result
 }
 
-console.log(getRabbitNum(10))
+var arr = [3,3,3,3,4,5,5,6,7,4,3,2]
+console.log(noreat(arr))
