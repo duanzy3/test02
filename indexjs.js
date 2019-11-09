@@ -1,3 +1,5 @@
+// 斐波拉契数列
+
 function getRabbitNum(num) {
 	var result = []
 	function fn (n){
@@ -19,4 +21,3 @@ function getRabbitNum(num) {
 }
 
 console.log(getRabbitNum(10))
-function
