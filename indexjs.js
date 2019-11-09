@@ -14,3 +14,6 @@ function noreat(arr){
 
 var arr = [3,3,3,3,4,5,5,6,7,4,3,2]
 console.log(noreat(arr))
+function(){
+	
+}
