@@ -30,3 +30,4 @@ const weather = require('./weather.js');/**/
 weather.queryWeather('101020100',(data)=>{
     console.log(data.weatherinfo.WD);
 });
+// 第四次提交
