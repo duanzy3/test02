@@ -19,3 +19,4 @@ function getRabbitNum(num) {
 }
 
 console.log(getRabbitNum(10))
+function
